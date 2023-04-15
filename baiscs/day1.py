@@ -1,3 +1,5 @@
+# Learned about STRINGS
+
 print('hello world')
 
 name = input('what is your name? ')
