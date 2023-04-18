@@ -1,8 +1,8 @@
 # Functions
 
-def my_func():
-    print('hello from function')
-    print('bye')
+def my_func(name):
+    print(f'hello {name}')
+    print(f"It's good to have you around mr {name}")
 
 
-my_func()
+my_func('techieEmma')
