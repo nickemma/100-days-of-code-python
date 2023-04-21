@@ -13,7 +13,7 @@ username = input('What is your username? ')
 password = input('What is your password? ')
 
 print('Account created successfully...')
-print('Now login with your credentials')
+print('login with your credentials')
 
 username2 = input('Login with your username?\n')
 password2 = input('Login with your password?\n')
