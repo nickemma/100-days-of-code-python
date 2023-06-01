@@ -30,8 +30,8 @@ for user, status in users.items():
 
 print(active_users)
 
-birth_year = input('what is your birth year? ')
+# birth_year = input('what is your birth year? ')
 
-age = 2023 - int(birth_year)
+# age = 2023 - int(birth_year)
 
-print(f'My age is {age}')
+# print(f'My age is {age}')

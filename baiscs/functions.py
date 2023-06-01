@@ -21,4 +21,4 @@ password2 = input('Login with your password?\n')
 if username == username2 and password == password2:
     print('User logged in successfully')
 else:
-    print('Invalid credentials')
+    print('Invalid credentials Email or Password')
