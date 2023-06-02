@@ -50,6 +50,6 @@ for char in range(1, nr_letters + 1):
 
 random.shuffle(password_list)
 password = ''
-for character in password_list:
-    password += character
+for char in password_list:
+    password += char
 print(password)

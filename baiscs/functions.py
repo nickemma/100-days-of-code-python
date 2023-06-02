@@ -22,3 +22,16 @@ if username == username2 and password == password2:
     print('User logged in successfully')
 else:
     print('Invalid credentials Email or Password')
+
+
+def formated_string(f_name, l_name):
+    if f_name == "" or l_name == "":
+        return "You didn't provide valid input?"
+
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"Result: {formated_f_name} {formated_l_name}"
+
+
+print(formated_string(input("What is your first Name? "),
+      input("what is your last Name? ")))
