@@ -30,15 +30,26 @@ operators = {
     "/": div
 }
 
-num1 = int(input("What is the first Number? "))
 
-for symbol in operators:
-    print(symbol)
+def calculator():
+    num1 = int(input("What is the first Number? "))
+    for symbol in operators:
+        print(symbol)
+    should_continue = True
 
-operators_symbol = input("Pick any of the operators above? ")
-num2 = int(input("What is the second Number? "))
-calculate_function = operators[operators_symbol]
-answer = calculate_function(num1, num2)
+    while should_continue:
+        operators_symbol = input("Pick any of the operators above? ")
+        num2 = int(input("What is the next Number? "))
+        calculate_function = operators[operators_symbol]
+        answer = calculate_function(num1, num2)
+
+        print(f"{num1} {operators_symbol} {num2} = {answer}")
+
+        if input(f"Type 'y' to continue calculating {answer}, or type 'no' to start a new calculation: ") == 'y':
+            num1 = answer
+        else:
+            should_continue = False
+            calculator()
 
 
-print(f"{num1} {operators_symbol} {num2} = {answer}")
+calculator()
