@@ -3,7 +3,7 @@
 def pure_func(li):
     new_list = []
     for item in li:
-        new_list.append(item*2)
+        new_list.append(item * 2)
 
     return new_list
 

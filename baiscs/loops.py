@@ -14,7 +14,7 @@ for score in student_scores:
 
 print(f"the highest score is {highest_score}")
 
-for num in range(1, 101):
+for num in range(1, 31):
     if num % 3 == 0 and num % 5 == 0:
         print('fizzbuzz')
     elif num % 3 == 0:
@@ -42,10 +42,10 @@ password_list = []
 for char in range(1, nr_letters + 1):
     password_list += random.choice(letters)
 
-for char in range(1, nr_letters + 1):
+for char in range(1, nr_symbols + 1):
     password_list += random.choice(symbols)
 
-for char in range(1, nr_letters + 1):
+for char in range(1, nr_numbers + 1):
     password_list += random.choice(numbers)
 
 random.shuffle(password_list)
