@@ -84,7 +84,9 @@ def calculate_discount(price, discount_percentage):
 # Explanation: In the final stage, we return the final price.
 
 
-# Test Cases:
+# Testing the Function:
 print(calculate_discount(100, 10))
 print(calculate_discount(200, 15))
 print(calculate_discount(300, 20))
+
+# Explanation: In the test cases, we call the calculate_discount function with different arguments and print the results.
