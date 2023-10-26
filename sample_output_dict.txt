@@ -1,0 +1,14 @@
+{
+
+fruit: apple
+
+vegetable: carrot
+
+animal: dog
+
+item: book
+
+celestial body: sun
+
+programming language: python
+}

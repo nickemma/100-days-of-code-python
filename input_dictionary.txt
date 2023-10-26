@@ -1,0 +1,6 @@
+apple: fruit
+carrot: vegetable
+dog: animal
+book: item
+sun: celestial body
+python: programming language
