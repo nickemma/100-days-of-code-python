@@ -1,14 +1,8 @@
 {
 
-fruit: apple
+red: apple, cherry
 
-vegetable: carrot
+yellow: banana, mango
 
-animal: dog
-
-item: book
-
-celestial body: sun
-
-programming language: python
+black: grapes
 }

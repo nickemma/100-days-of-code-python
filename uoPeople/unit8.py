@@ -7,21 +7,21 @@
 # #     print(f'Error: File not found. {e}')
 
 # Step 1: Create the input file (sample_input_dict.txt)
-input_dict = {
-    "apple": "fruit",
-    "carrot": "vegetable",
-    "dog": "animal",
-    "book": "item",
-    "sun": "celestial body",
-    "python": "programming language",
-}
 # input_dict = {
-#     "apple": "red",
-#     "banana": "yellow",
-#     "cherry": "red",
-#     "mango": "yellow",
-#     "grapes": "black",
+#     "apple": "fruit",
+#     "carrot": "vegetable",
+#     "dog": "animal",
+#     "book": "item",
+#     "sun": "celestial body",
+#     "python": "programming language",
 # }
+input_dict = {
+    "apple": "red",
+    "banana": "yellow",
+    "cherry": "red",
+    "mango": "yellow",
+    "grapes": "black",
+}
 
 with open("sample_input_dict.txt", "w") as input_file:
     for key, value in input_dict.items():
