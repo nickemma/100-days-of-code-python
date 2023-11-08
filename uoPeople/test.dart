@@ -7,6 +7,18 @@ void main() {
   superUserData.login();
   superUserData.publish();
   print(superUserData.name);
+
+  String name = 'John';
+  print('hello ${name}');
+  print('hey $name');
+
+  bool isTrue = true;
+  print('isTrue is ${isTrue}');
+
+  dynamic x = 'am here';
+  print(x);
+  x = 123;
+  print(x);
 }
 
 class User {
