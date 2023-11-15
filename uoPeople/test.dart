@@ -36,8 +36,8 @@ void main() {
 
 // Create a class called User
 class User {
-  String name;
-  String email;
+  final String name;
+  final String email;
   int age;
 
 // Create a constructor for the User class
